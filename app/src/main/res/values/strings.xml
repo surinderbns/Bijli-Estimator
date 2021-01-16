@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources >
+    <string name="app_name">Bijli Estimator</string>
+    <string name="load">LOAD ESTIMATOR </string>
+    <string name="bill">MINI_BILL </string>
+    <string name="action_settings">Settings</string>
+
+    <string name="company_prompt">choose a Company</string>
+    <string-array name="company_array">
+        <item>PSPCL</item>
+    </string-array>
+    <string name="category_prompt">Choose Category </string>
+    <string-array name="category_array">
+        <item>Domestic </item>
+        <item>Non-Residential  </item>
+    </string-array>
+    <string name="language_prompt">Choose Language</string>
+    <string-array name="language_array">
+        <item>Punjabi</item>
+        <item>English </item>
+
+    </string-array>
+    <string name="load_prompt">Select Load Unit</string>
+    <string-array name="load_array">
+        <item>KW</item>
+        <item>KVA </item>
+    </string-array>
+
+    <string name="unit_prompt">Select Unit</string>
+    <string-array name="unit_array">
+        <item>KWH</item>
+        <item>KVAH </item>
+
+    </string-array>
+    <string name="title_activity_loadcalculatoractivity" translatable="false">Loadcalculatoractivity</string>
+    <string name="dummy_button" translatable="false">Dummy Button</string>
+    <string name="dummy_content" translatable="false">DUMMY\nCONTENT</string>
+    <string name="light_points">Light Points</string>
+    <string name="fan_points">Fan Points</string>
+    <string name="wall_sockets">Wall Sockets</string>
+    <string name="power_sockets">Power Sockets</string>
+    <string name="load_calculator">LOAD CALCULATOR</string>
+    <string name="_1000_watt">1000 Watt</string>
+    <string name="_6000_watt">6000 Watt</string>
+    <string name="_2500_watt">Actual or2500 Watt</string>
+    <string name="_750_watt">746 Watt</string>
+    <string name="your_bijli_company_board">Your Bijli Company /Board</string>
+    <string name="eg_10_12" translatable="false">10</string>
+    <string name="eg_5_8" translatable="false">5</string>
+    <string name="eg_2_3" translatable="false"> 3</string>
+    <string name="eg_3_5" translatable="false">5</string>
+    <string name="eg_2000" translatable="false">2000</string>
+    <string name="eg_0_5_1" translatable="false">eg 0.5,1</string>
+    <string name="enter_1">enter 1</string>
+    <string name="name_plate">name plate</string>
+    <string name="_3ph_powerSocket">3Ph-PowerSocket</string>
+    <string name="motor_hp">Motor HP</string>
+    <string name="check_your_load_here">Check Your Load Here</string>
+    <string name="any_other_watts">Any Other Watts</string>
+    <string name="_40watt">Actual or 40Watt</string>
+    <string name="_60_watt">60 Watt</string>
+    <string name="kilowatt">KiloWatt</string>
+    <string name="standard_ac_watt" translatable="false">Standard AC Watt</string>
+    <string name="select_your_category1">Select Your Category</string>
+    <string name="your_bijli_company">Your Bijli Company</string>
+    <string name="dec" translatable="false">-</string>
+    <string name="inc" translatable="false">+</string>
+    <string name="fan_points1">Fan Points</string>
+
+    <string name="contact" translatable="false">  (Ver 1.00) All rights reserved. mail ID : (surinderbns@gmail.com),Er S.K.Bains </string>
+    <string name="bill_calculator">Bill Calculator</string>
+    <string name="connected_load"> Load/C.D.</string>
+    <string name="new_connection_expenses">New Connection Expenses</string>
+    <string name="help" translatable="false">Help</string>
+    <string name="about_this_app" translatable="false">About This App</string>
+    <string name="selct_any_option" translatable="false">selct any option</string>
+    <string name="calculate">Calculate</string>
+    <string name="_500" translatable="false">500</string>
+    <string name="eg_60_75" translatable="false">eg 60,75</string>
+    <string name="new_connection_expenses_estimate">NEW CONNECTION EXPENSES ESTIMATE</string>
+    <string name="instLn">Installation by PSPCL</string>
+    <string name="select_your_category">Select Your category</string>
+    <string name="load_applied">Load/Demand</string>
+    <string name="billing_type">Billing Type</string>
+    <string name="installation_type">Installation Type</string>
+    <string name="security_acd">Security/ACD</string>
+    <string name="applicable_rate">Applicable Rate</string>
+    <string name="service_connection_charges">Ser Conn Charges</string>
+    <string name="meter_security">Meter Security</string>
+    <string name="mcb_security">MCB Security</string>
+    <string name="processing_fees">Processing Fees</string>
+    <string name="gst">GST</string>
+
+    <string name="_18" translatable="false">18 %</string>
+    <string name="instln_type">1ph or 3Ph or LTCT</string>
+    <string name="bill_type">spot or other</string>
+    <string name="estimate">Estimate</string>
+    <string name="existing_load">Existing Load</string>
+    <string name="new_load_applied">New Load Applied</string>
+    <string name="additional_load">Additional Load</string>
+    <string name="bill_estimator">BILL CALCULATOR</string>
+    <string name="total">Total  </string>
+    <string name="b_energy_charges_rs">Energy Charges (Rs)</string>
+    <string name="unit_consumed">Unit Consumed</string>
+    <string name="a_fixed_charges_rs">Fixed Charges (Rs)</string>
+    <string name="above_500_units" >Above 500 Units</string>
+    <string name="_100_300_units" >100_300 Units</string>
+    <string name="_300_500_units" >300_500 Units</string>
+    <string name="total_bill_rs">Total Bill (Rs)</string>
+
+
+    <string name="d_taxes">Taxes</string>
+    <string name="amount">Amount</string>
+    <string name="c_fca">Addl.Surcharge</string>
+    <string name="_80_load">80%Load</string>
+    <string name="_20_nearly" >20% nearly</string>
+    <string name="upTo_100_units">Up to 100 Units</string>
+    <string name="rs_0_3_p_u">Rs 0.29 p.u.</string>
+    <string name="bill_period">Bill Period</string>
+    <string name="days">Days</string>
+    <string name="installation_type_old">Installation Type Old</string>
+    <string name="installation_type_new">Installation Type New</string>
+    <string name="punjabi">punjabi</string>
+
+    <string name="kw_or_kva" translatable="false">KW or KVA</string>
+    <string name="kw" translatable="false">KW</string>
+    <string name="installation_work">Installation Work</string>
+    <string name="by_pspcl">By Pspcl</string>
+    <string name="rs">Rs</string>
+    <string name="message_1">POWER IS PRECIOUS. DON\'T WASTE IT.</string>
+    <string name="message_2">POWER IS PRECIOUS. DON\'T WASTE IT!.......Theft of Electricity is a Punishable Offence!!....... </string>
+    <string name="expenses">Expenses</string>
+    <string name="service_conditions">Service Conditions</string>
+    <string name="grand_total">Grand-Total</string>
+    <string name="load_extension_expenses">Load Extension Expenses</string>
+    <string name="air_conditioner">Air Conditioner</string>
+    <string name="meter_rental">Meter Rental</string>
+    <string name="rate_gst">Rate+GST</string>
+    <string name="mcb_rental">Mcb Rental</string>
+    <string name="total_energy_charges">Total Energy Charges</string>
+    <string name="kwh">KWH</string>
+    <string name="as_on_bill" >As on bill</string>
+    <string name="_30_60" translatable="false">30,60</string>
+    <string name="enter_here" >enter here</string>
+    <string name="ads_here" translatable="false">Ads Here</string>
+    <string name="load_cal">Load Calculator</string>
+    <string name="kva">KVA</string>
+
+    <string name="billing_type_new">Billing Type New</string>
+    <string name="billing_type_old">Billing Type Old</string>
+    <string name="def_lp" translatable="false">40</string>
+    <string name="def_lpn" translatable="false">10</string>
+    <string name="def_fpn" translatable="false">6</string>
+    <string name="def_wsn" translatable="false">4</string>
+    <string name="def_psn" translatable="false">2</string>
+    <string name="def_hp" translatable="false">0.5</string>
+    <string name="def_acp" translatable="false">2500</string>
+    <string name="def_acn" translatable="false">1</string>
+    <string name="def_ldp" translatable="false">500</string>
+    <string name="def_ldn" translatable="false">0</string>
+    <string name="def_uc" translatable="false">1000</string>
+    <string name="def_bp" translatable="false">60</string>
+    <string name="def_cl" translatable="false">2</string>
+    <string name="_kva" translatable="false">KVA</string>
+    <string name="_kvah" translatable="false">KVAH</string>
+    <string name="_kw" translatable="false">KW</string>
+    <string name="_kwh" translatable="false">KWH</string>
+    <string name="_bt" translatable="false">Other than Spot</string>
+    <string name="_bto" translatable="false">Spot</string>
+    <string name="mtr_ltct" translatable="false">LT-CT meter</string>
+    <string name="mtr_3ph" translatable="false">3-Ph Meter</string>
+    <string name="mtr_1ph" translatable="false">1-Ph Meter</string>
+    <string name="cl_max" translatable="false">100</string>
+    <string name="acd1_spot_nrs" translatable="false">235</string>
+    <string name="acd2_spot_nrs" translatable="false">470</string>
+    <string name="acd1_other_nrs" translatable="false">420</string>
+    <string name="acd2_other_nrs" translatable="false">470</string>
+    <string name="acd3_other_nrs" translatable="false">700</string>
+    <string name="acd4_other_ds" translatable="false">500</string>
+    <string name="acd3_other_ds" translatable="false">370</string>
+    <string name="acd2_other_ds" translatable="false">330</string>
+    <string name="acd2_spot_ds" translatable="false">370</string>
+    <string name="acd1_spot_ds" translatable="false">185</string>
+    <string name="scc1_nrs" translatable="false">1800</string>
+    <string name="scc2_nrs" translatable="false">1600</string>
+    <string name="scc3_nrs" translatable="false">1000</string>
+    <string name="scc1_ds" translatable="false">1750</string>
+    <string name="scc2_ds" translatable="false">1500</string>
+    <string name="scc3_ds" translatable="false">1000</string>
+    <string name="scc4_ds" translatable="false">450</string>
+    <string name="met_sec_ltct" translatable="false">4200</string>
+    <string name="met_sec_3ph" translatable="false">1530</string>
+    <string name="met_sec_1ph" translatable="false">400</string>
+    <string name="mcb_sec_ltct" translatable="false">1780</string>
+    <string name="mcb_sec_iph" translatable="false">350</string>
+    <string name="mcb_sec_1ph" translatable="false">225</string>
+    <string name="fee1_nrs" translatable="false">100</string>
+    <string name="fee2_nrs" translatable="false">50</string>
+    <string name="fee1_ds" translatable="false">100</string>
+    <string name="fee2_ds" translatable="false">20</string>
+
+
+</resources>

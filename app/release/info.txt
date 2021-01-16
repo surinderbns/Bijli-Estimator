@@ -1,0 +1,4 @@
+Bijli Calculator
+com.example.bijliestimator
+keystore pw=key password=012345
+key012345

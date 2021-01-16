@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ਬਿਜਲੀ ਅਨੁਮਾਨਕ</string>
+    <string name="load">ਲੋਡ ਅਨੁਮਾਨ</string>
+    <string name="bill">ਮਿਨੀ ਬਿਲ</string>
+    <string name="action_settings">ਸੈਟਿੰਗਜ਼</string>
+    <string name="company_prompt">ਬਿਜਲੀ ਕੰਪਨੀ</string>
+    <string-array name="company_array">
+        <item>ਪੰ.ਸ.ਪਾ.ਕਾ.</item>
+    </string-array>
+
+    <string name="category_prompt">ਸ਼੍ਰੇਣੀ ਚੁਣੋ</string>
+    <string-array name="category_array">
+        <item>ਘਰੇਲੂ</item>
+        <item> ਐਨ.ਆਰ.ਐਸ.</item>
+    </string-array>
+
+
+    <string name="language_prompt">ਭਾਸ਼ਾ ਚੁਣੋ</string>
+    <string-array name="language_array">
+    <item>ਪੰਜਾਬੀ</item>
+    <item>ਇੰਗਲਿਸ਼ </item>
+    </string-array>
+
+    <string name="load_prompt">ਲੋਡ ਯੂਨਿਟ ਦੀ ਚੋਣ ਕਰੋ</string>
+    <string name="unit_prompt">ਇਕਾਈ ਦੀ ਚੋਣ ਕਰੋ</string>
+    <string name="light_points">ਲਾਈਟ ਪੁਆਇੰਟ</string>
+    <string name="fan_points">ਫੈਨ ਪੁਆਇੰਟ</string>
+    <string name="wall_sockets">ਵਾਲ ਸਾਕਿਟਾਂ</string>
+    <string name="power_sockets">ਪਾਵਰ ਸਾਕਿਟਾਂ</string>
+    <string name="air_conditioner">" ਏ.ਸੀ."</string>
+    <string name="load_calculator">ਲੋਡ ਕੈਲਕੁਲੇਟਰ</string>
+    <string name="your_bijli_company_board">ਤੁਹਾਡੀ ਬਿਜਲੀ ਕੰਪਨੀ/ਬੋਰਡ</string>
+    <string name="name_plate">ਨੇਮ ਪਲੇਟ ਅਨੁਸਾਰ</string>
+    <string name="_3ph_powerSocket">3 ਫੇਜ਼ ਪਾਵਰ ਸਾਕਿਟਾਂ</string>
+    <string name="motor_hp">ਮੋਟਰ ਹਾਰਸ ਪਾਵਰ</string>
+    <string name="check_your_load_here">ਆਪਣਾ ਲੋਡ ਇੱਥੇ ਚੈੱਕ ਕਰੋ</string>
+    <string name="any_other_watts">ਕੋਈ ਹੋਰ ਵਾਟ</string>
+    <string name="_40watt">ਅਸਲ ਜਾਂ 40ਵਾਟ</string>
+    <string name="_60_watt">60 ਵਾਟ</string>
+    <string name="_1000_watt">1000 ਵਾਟ</string>
+    <string name="_6000_watt">6000 ਵਾਟ</string>
+    <string name="_2500_watt">ਅਸਲ ਜਾਂ 2500ਵਾਟ</string>
+    <string name="_750_watt">746 ਵਾਟ</string>
+    <string name="kilowatt">ਕਿਲੋਵਾਟ</string>
+    <string name="select_your_category1">ਆਪਣੀ ਸ਼੍ਰੇਣੀ ਚੁਣੋ</string>
+    <string name="your_bijli_company">ਤੁਹਾਡੀ ਬਿਜਲੀ ਕੰਪਨੀ</string>
+    <string name="fan_points1">ਫੈਨ ਪੁਆਇੰਟ</string>
+    <string name="bill_calculator">ਬਿਲ ਕੈਲਕੁਲੇਟਰ</string>
+    <string name="connected_load">ਜੁੜਿਆ ਹੋਇਆ ਲੋਡ</string>
+    <string name="new_connection_expenses">ਨਵੇਂ ਕਨੈਕਸ਼ਨ ਦੇ ਖਰਚੇ</string>
+    <string name="calculate">ਕੈਲਕੁਲੇਟ</string>
+    <string name="new_connection_expenses_estimate">ਨਵੇਂ ਕੁਨੈਕਸ਼ਨ ਦੇ ਖਰਚੇ ਦਾ ਅਨੁਮਾਨ</string>
+    <string name="instLn">ਪੀਐਸਪੀਸੀਐਲ ਦੁਆਰਾ ਸਥਾਪਨਾ</string>
+    <string name="select_your_category">ਆਪਣੀ ਸ਼੍ਰੇਣੀ ਚੁਣੋ</string>
+    <string name="load_applied">ਲੋਡ/ਡਿਮਾਂਡ</string>
+    <string name="billing_type">ਬਿਲਿੰਗ ਦੀ ਕਿਸਮ</string>
+    <string name="installation_type">ਇੰਸਟਾਲੇਸ਼ਨ ਕਿਸਮ</string>
+    <string name="security_acd">"ਸਿਕਿਉਰਿਟੀ/ ਏ.ਸੀ.ਡੀ. "</string>
+    <string name="applicable_rate">ਲਾਗੂ ਰੇਟ</string>
+    <string name="service_connection_charges">ਸਰਵਿਸ ਕੁਨੈਕਸ਼ਨ ਚਾਰਜਜ਼</string>
+    <string name="meter_security">ਮੀਟਰ  ਸਿਕਿਉਰਿਟੀ</string>
+    <string name="mcb_security">ਐਮ.ਸੀ.ਬੀ.   ਸਿਕਿਉਰਿਟੀ</string>
+    <string name="processing_fees">ਪ੍ਰੋਸੈਸਿੰਗ ਫੀਸ</string>
+    <string name="gst">ਜੀ ਐਸ ਟੀ</string>
+    <string name="instln_type">1ਫੇਜ਼ 3 ਫੇਜ਼ ਜਾਂ ਐਲਟੀ ਸੀਟੀ</string>
+    <string name="bill_type">ਸਪਾਟ ਜਾਂ ਹੋਰ</string>
+    <string name="estimate">ਐਸਟੀਮੇਟ</string>
+    <string name="existing_load">ਮੌਜੂਦਾ ਲੋਡ</string>
+    <string name="new_load_applied">ਨਵਾਂ ਲੋੜੀਂਦਾ ਲੋਡ</string>
+    <string name="additional_load">ਵਾਧੂ ਲੋਡ</string>
+    <string name="bill_estimator">ਬਿਲ ਅਨੁਮਾਨਕ</string>
+    <string name="total">ਕੁਲ</string>
+    <string name="b_energy_charges_rs"> ਊਰਜਾ ਦੇ ਖਰਚੇ (ਰੁ)</string>
+    <string name="unit_consumed">ਯੂਨਿਟ ਖਪਤ</string>
+    <string name="a_fixed_charges_rs"> ਫਿਕਸ ਖਰਚੇ (ਰੁ.)</string>
+    <string name="total_bill_rs">ਕੁੱਲ ਬਿੱਲ (ਰੁ.)</string>
+    <string name="d_taxes"> ਟੈਕਸ ਵਗੈਰਾ</string>
+    <string name="amount">" ਰਕਮ"</string>
+    <string name="upTo_100_units">100 ਯੂਨਿਟਾਂ ਤੱਕ</string>
+    <string name="rs_0_3_p_u">0.29 ਰੁ.  ਯੂਨਿਟ</string>
+    <string name="bill_period">ਬਿਲ  ਅੰਤਰਾਲ</string>
+    <string name="days">ਦਿਨ</string>
+    <string name="installation_type_old">ਪੁਰਾਣੀ ਇੰਸਟਾਲੇਸ਼ਨ </string>
+    <string name="installation_type_new">ਨਵੀਂ ਇੰਸਟਾਲੇਸ਼ਨ  </string>
+    <string name="installation_work">ਇੰਸਟਾਲੇਸ਼ਨ ਕਾਰਜ</string>
+    <string name="by_pspcl">ਪੀਐਸਪੀਸੀਐਲ ਦੁਆਰਾ</string>
+    <string name="rs">ਰੁਪਏ</string>
+    <string name="message_1">ਊਰਜਾ ਵਡਮੁੱਲੀ ਹੈ, ਇਸ ਨੂੰ ਬਰਬਾਦ ਨਾ ਕਰੋ । </string>
+    <string name="message_2">ਊਰਜਾ ਵਡਮੁੱਲੀ ਹੈ, ਇਸ ਨੂੰ ਬਰਬਾਦ ਨਾ ਕਰੋ ।...... ਬਿਜਲੀ ਚੋਰੀ ਕਰਨਾ ਸਜਾ ਯੋਗ ਅਪਰਾਧ ਹੈ ।...... </string>
+    <string name="expenses">ਖਰਚੇ</string>
+    <string name="service_conditions">ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ</string>
+    <string name="grand_total">ਕੁਲ ਜੋੜ</string>
+    <string name="load_extension_expenses">ਲੋਡ ਵਧਾਉਣ ਦੇ ਖਰਚੇ</string>
+    <string name="meter_rental">ਮੀਟਰ ਰੈਂਟਲ</string>
+    <string name="rate_gst">ਰੇਟ+ਜੀ ਐਸ ਟੀ</string>
+    <string name="mcb_rental">ਐਮ.ਸੀ.ਬੀ.</string>
+    <string name="total_energy_charges">ਕੁਲ ਊਰਜਾ ਖਰਚੇ</string>
+    <string name="c_fca">ਵਾਧੂ ਸਰਚਾਰਜ</string>
+    <string name="load_cal">ਲੋਡ ਕੈਲਕੁਲੇਟਰ</string>
+    <string name="kwh">ਯੂਨਿਟ</string>
+    <string name="enter_1">1 ਭਰੋ</string>
+    <string name="_20_nearly" >20% ਲਗਭਗ</string>
+    <string name="punjabi">ਪੰਜਾਬੀ</string>
+    <string name="as_on_bill">ਜਿਵੇਂ ਬਿੱਲ \'ਤੇ</string>
+    <string name="enter_here">ਦਰਜ ਕਰੋ</string>
+    <string name="above_500_units">500 ਤੋਂ ਉਪਰ</string>
+    <string name="_100_300_units">100ਤੋਂ300 ਯੂਨਿਟ</string>
+    <string name="_300_500_units">300ਤੋਂ500 ਯੂਨਿਟ</string>
+    <string name="_80_load">80%ਲੋਡ</string>
+    <string name="kva">ਕੇ.ਵੀ.ਏ.</string>
+
+    <string name="billing_type_new"> ਨਵੀਂ ਬਿਲਿੰਗ</string>
+    <string name="billing_type_old">ਪੁਰਾਣੀ ਬਿਲਿੰਗ</string>
+
+
+</resources>
