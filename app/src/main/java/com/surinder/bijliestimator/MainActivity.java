@@ -1,4 +1,4 @@
-package com.example.bijliestimator;
+package com.surinder.bijliestimator;
 
 import android.content.Intent;
 

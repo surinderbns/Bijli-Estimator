@@ -77,12 +77,12 @@
 
         <TextView
             android:id="@+id/tv_cl"
-            android:layout_width="120dp"
+            android:layout_width="140dp"
             android:layout_height="20dp"
             android:layout_marginTop="2dp"
             android:background="#A4C639"
             android:gravity="start"
-            android:outlineProvider="paddedBounds"
+
             android:text="@string/existing_load"
             android:textColor="#ffffff"
             android:textSize="16sp"
@@ -95,12 +95,12 @@
 
         <TextView
             android:id="@+id/tv_cl4"
-            android:layout_width="120dp"
+            android:layout_width="140dp"
             android:layout_height="20dp"
             android:layout_marginTop="2dp"
             android:background="#A4C639"
             android:gravity="start"
-            android:outlineProvider="paddedBounds"
+
             android:text="@string/new_load_applied"
             android:textColor="#ffffff"
             android:textSize="16sp"
@@ -282,7 +282,7 @@
             android:layout_height="24dp"
             android:background="@drawable/red_border"
             android:gravity="center"
-            android:outlineProvider="paddedBounds"
+
             android:textSize="14sp"
             app:layout_constraintBottom_toBottomOf="@+id/textView9"
             app:layout_constraintEnd_toEndOf="parent"
@@ -478,7 +478,7 @@
 
         <EditText
             android:id="@+id/et_cl1"
-            android:layout_width="120dp"
+            android:layout_width="100dp"
             android:layout_height="20dp"
             android:background="@drawable/yell_border"
             android:ems="10"
@@ -496,7 +496,7 @@
 
         <EditText
             android:id="@+id/et_cd"
-            android:layout_width="120dp"
+            android:layout_width="100dp"
             android:layout_height="20dp"
             android:background="@drawable/yell_border"
             android:ems="10"
@@ -583,7 +583,6 @@
             android:layout_width="60dp"
             android:layout_height="24dp"
             android:layout_marginTop="4dp"
-            android:outlineProvider="paddedBounds"
             android:paddingStart="2dp"
             android:paddingEnd="2dp"
             android:text="@string/total"

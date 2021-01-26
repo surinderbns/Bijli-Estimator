@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.bijliestimator">
+    package="com.surinder.bijliestimator">
 
     <application
         android:icon="@mipmap/ic_launcher"
@@ -12,24 +12,24 @@
         tools:ignore="GoogleAppIndexingWarning"
         android:fullBackupContent="true"
         android:allowBackup="true">
-        <activity android:name=".LoadExtension"
+        <activity android:name="com.surinder.bijliestimator.LoadExtension"
             android:label="@string/app_name"
-            android:parentActivityName=".MainActivity"/>
+            android:parentActivityName="com.surinder.bijliestimator.MainActivity"/>
 
         <activity
-            android:name=".ConExp"
+            android:name="com.surinder.bijliestimator.ConExp"
             android:label="@string/app_name"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName="com.surinder.bijliestimator.MainActivity" />
         <activity
-            android:name=".bill_mini"
+            android:name="com.surinder.bijliestimator.bill_mini"
             android:label="@string/app_name"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName="com.surinder.bijliestimator.MainActivity" />
         <activity
-            android:name=".loadcalculator"
+            android:name="com.surinder.bijliestimator.loadcalculator"
             android:label="@string/app_name"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName="com.surinder.bijliestimator.MainActivity" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.surinder.bijliestimator.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>

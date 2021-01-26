@@ -67,7 +67,7 @@
     <string name="inc" translatable="false">+</string>
     <string name="fan_points1">Fan Points</string>
 
-    <string name="contact" translatable="false">  (Ver 1.00) All rights reserved. mail ID : (surinderbns@gmail.com),Er S.K.Bains </string>
+    <string name="contact" translatable="false"> Powered By : Surinder Bains SE PSPCL, With Special Thanks To Sh Mohan Lal AAO.Contact: Mail to surinderbns@gmail.com, Mob 9041519091 </string>
     <string name="bill_calculator">Bill Calculator</string>
     <string name="connected_load"> Load/C.D.</string>
     <string name="new_connection_expenses">New Connection Expenses</string>
@@ -95,8 +95,8 @@
     <string name="instln_type">1ph or 3Ph or LTCT</string>
     <string name="bill_type">spot or other</string>
     <string name="estimate">Estimate</string>
-    <string name="existing_load">Existing Load</string>
-    <string name="new_load_applied">New Load Applied</string>
+    <string name="existing_load">Existing Load/Demand</string>
+    <string name="new_load_applied">New Load/Demand</string>
     <string name="additional_load">Additional Load</string>
     <string name="bill_estimator">BILL CALCULATOR</string>
     <string name="total">Total  </string>
@@ -167,7 +167,7 @@
     <string name="_kwh" translatable="false">KWH</string>
     <string name="_bt" translatable="false">Other than Spot</string>
     <string name="_bto" translatable="false">Spot</string>
-    <string name="mtr_ltct" translatable="false">LT-CT meter</string>
+    <string name="mtr_ltct" translatable="false">LT-CT Meter</string>
     <string name="mtr_3ph" translatable="false">3-Ph Meter</string>
     <string name="mtr_1ph" translatable="false">1-Ph Meter</string>
     <string name="cl_max" translatable="false">100</string>
@@ -198,6 +198,7 @@
     <string name="fee2_nrs" translatable="false">50</string>
     <string name="fee1_ds" translatable="false">100</string>
     <string name="fee2_ds" translatable="false">20</string>
+    <string name="app_msg">Bijli-Estimator to help you to assess your Electricity Needs and Expenses before consulting Electricity Office</string>
 
 
 </resources>

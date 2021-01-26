@@ -112,6 +112,7 @@
 
     <string name="billing_type_new"> ਨਵੀਂ ਬਿਲਿੰਗ</string>
     <string name="billing_type_old">ਪੁਰਾਣੀ ਬਿਲਿੰਗ</string>
+    <string name="app_msg">ਬਿਜਲੀ ਦਫ਼ਤਰ ਨਾਲ ਸਲਾਹ-ਮਸ਼ਵਰਾ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਬਿਜਲੀ ਦੀਆਂ ਜ਼ਰੂਰਤਾਂ ਅਤੇ ਖਰਚਿਆਂ ਦਾ ਮੁਲਾਂਕਣ ਕਰਨ ਵਿਚ ਤੁਹਾਡੀ ਮਦਦ ਕਰਨ ਲਈ ਬਿਜਲੀ-ਐਸਟੀਮੇਟਰ</string>
 
 
 </resources>

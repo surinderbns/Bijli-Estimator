@@ -1,4 +1,4 @@
-package com.example.bijliestimator;
+package com.surinder.bijliestimator;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -18,7 +18,6 @@ import static java.lang.String.format;
 
 
 public class ConExp extends AppCompatActivity {
-    private Spinner tvSp1,tvSp2;
     private EditText cl;
     private Button est;
     private TextView unit;
@@ -35,7 +34,7 @@ public class ConExp extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_con_exp);
-        tvSp1 = findViewById(R.id.spn_com);
+        Spinner tvSp2;
         tvSp2 = findViewById(R.id.spn_lan);
         unit =findViewById(R.id.tv_unit);
         cl = findViewById(R.id.et_cl1);
@@ -58,7 +57,6 @@ public class ConExp extends AppCompatActivity {
         ln72 = findViewById(R.id.tv_ln72);
         ln82 = findViewById(R.id.tv_ln82);
         ln91 = findViewById(R.id.tv_ln911);
-        tvSp2 = findViewById(R.id.spn_lan);
         est = findViewById(R.id.btn_nc);
         tvSp2.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
@@ -94,10 +92,10 @@ public class ConExp extends AppCompatActivity {
                                 double Ln41 =  Double.parseDouble(ln41.getText().toString());
                                 double Ln42 = (Cl)*Ln41;ln42.setText(format(Locale.US,"%s",Math.round(Ln42*100.0/100.0)));
 
-                                if(it.equals("LT-CT meter")){ln51.setText(R.string.met_sec_ltct);} else if(it.equals("3-Ph Meter")){ln51.setText(R.string.met_sec_3ph);} else {ln51.setText(R.string.met_sec_1ph);}
+                                if(it.equals("LT-CT Meter")){ln51.setText(R.string.met_sec_ltct);} else if(it.equals("3-Ph Meter")){ln51.setText(R.string.met_sec_3ph);} else {ln51.setText(R.string.met_sec_1ph);}
                                 double Ln52 = Double.parseDouble(ln51.getText().toString());ln52.setText(format(Locale.US,"%s",Math.round(Ln52*100.0/100.0)));
 
-                                if(it.equals("LT-CT meter")){ln61.setText(R.string.mcb_sec_ltct);} else if(it.equals("3-Ph Meter")){ln61.setText(R.string.mcb_sec_iph);} else {ln61.setText(R.string.mcb_sec_1ph);}
+                                if(it.equals("LT-CT Meter")){ln61.setText(R.string.mcb_sec_ltct);} else if(it.equals("3-Ph Meter")){ln61.setText(R.string.mcb_sec_iph);} else {ln61.setText(R.string.mcb_sec_1ph);}
                                 double Ln61 =  Double.parseDouble(ln61.getText().toString());
                                 ln62.setText(format(Locale.US,"%s",Math.round(Ln61 *100.0/100.0)));
 
@@ -139,10 +137,10 @@ public class ConExp extends AppCompatActivity {
                                      double Ln420 = (Cl0)*Ln410;ln42.setText(format(Locale.US,"%s",Math.round(Ln420*100.0/100.0)));
 
 
-                                     if(it0.equals("LT-CT meter")){ln51.setText(R.string.met_sec_ltct);} else if(it0.equals("3-Ph Meter")){ln51.setText(R.string.met_sec_3ph);} else {ln51.setText(R.string.met_sec_1ph);}
+                                     if(it0.equals("LT-CT Meter")){ln51.setText(R.string.met_sec_ltct);} else if(it0.equals("3-Ph Meter")){ln51.setText(R.string.met_sec_3ph);} else {ln51.setText(R.string.met_sec_1ph);}
                                     double Ln520 = Double.parseDouble(ln51.getText().toString());ln52.setText(format(Locale.US,"%s",Math.round(Ln520*100.0/100.0)));
 
-                                    if(it0.equals("LT-CT meter")){ln61.setText(R.string.mcb_sec_ltct);} else if(it0.equals("3-Ph Meter")){ln61.setText(R.string.mcb_sec_iph);} else {ln61.setText(R.string.mcb_sec_1ph);}
+                                    if(it0.equals("LT-CT Meter")){ln61.setText(R.string.mcb_sec_ltct);} else if(it0.equals("3-Ph Meter")){ln61.setText(R.string.mcb_sec_iph);} else {ln61.setText(R.string.mcb_sec_1ph);}
                                     double Ln610 =  Double.parseDouble(ln61.getText().toString());
                                     ln62.setText(format(Locale.US,"%s",Math.round(Ln610 *100.0/100.0)));
 

@@ -1,4 +1,4 @@
-package com.example.bijliestimator;
+package com.surinder.bijliestimator;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -18,7 +18,7 @@ import java.util.Locale;
 import static java.lang.String.format;
 
 public class LoadExtension extends AppCompatActivity {
-    private Spinner tvsp1, tvsp2;
+    private Spinner  tvsp2;
     private EditText clo, cln;
     private Button est;
     private TextView unit,unit3;
@@ -38,7 +38,6 @@ public class LoadExtension extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_load_extension);
-        tvsp1 = findViewById(R.id.spn_com);
         tvsp2 = findViewById(R.id.spn_lan);
         unit= findViewById(R.id.spn_cl);
         unit3= findViewById(R.id.cd_unit);
@@ -99,12 +98,13 @@ public class LoadExtension extends AppCompatActivity {
                                 }
 
 
-                                if (CLo > 20) { ln11.setText(R.string._bt); } else { ln11.setText(R.string._bto); }
+                                if (CLo > 20) ln11.setText(R.string._bt);else ln11.setText(R.string._bto);
                                 if (CLn > 20) { ln111.setText(R.string._bt); } else { ln111.setText(R.string._bto); }
-                                if (CLo > 30) { ln21.setText(R.string.mtr_ltct); } else if (CLo > 7) { ln21.setText(R.string.mtr_3ph); } else { ln21.setText(R.string.mtr_1ph); }
-                                if (CLn > 30) { ln01.setText(R.string.mtr_ltct); } else if (CLn > 7) { ln01.setText(R.string.mtr_3ph); } else { ln01.setText(R.string.mtr_1ph); }
 
-                                String btn = (ln11.getText().toString());
+                                if (CLo*0.9 > 30) { ln21.setText(R.string.mtr_ltct); } else if (CLo > 7) { ln21.setText(R.string.mtr_3ph); } else { ln21.setText(R.string.mtr_1ph); }
+                                if (CLn*0.9 > 30) { ln01.setText(R.string.mtr_ltct); } else if (CLn > 7) { ln01.setText(R.string.mtr_3ph); } else { ln01.setText(R.string.mtr_1ph); }
+
+                                String btn = (ln111.getText().toString());
                                 String ito = (ln21.getText().toString());
                                 String itn = (ln01.getText().toString());
 
@@ -144,7 +144,7 @@ public class LoadExtension extends AppCompatActivity {
                                 ln62.setText(format(Locale.US,"%s",Math.round( Ln62* 100.0 / 100.0)));
                                 ln61.setText(format(Locale.US,"%s",Math.round( Ln61* 100.0 / 100.0)));
 
-                                if(CLn>7){ln71.setText("100");}  else {ln71.setText("50");}
+                                if(CLn>7){ln71.setText(R.string.fee1_nrs);}  else {ln71.setText(R.string.fee2_nrs);}
                                 double Ln71 = Double.parseDouble(ln71.getText().toString());
                                 ln72.setText(format(Locale.US,"%s",Math.round(Ln71 * 100.0 / 100.0)));
                                 double Ln82 = 0.18 * Ln71;
@@ -186,7 +186,7 @@ public class LoadExtension extends AppCompatActivity {
                                 if (CLo0 > 30) { ln21.setText(R.string.mtr_ltct); } else if (CLo0 > 7) { ln21.setText(R.string.mtr_3ph); } else { ln21.setText(R.string.mtr_1ph); }
                                 if (CLn0 > 30) { ln01.setText(R.string.mtr_ltct); } else if (CLn0 > 7) { ln01.setText(R.string.mtr_3ph); } else { ln01.setText(R.string.mtr_1ph); }
 
-                                String btn0 = (ln11.getText().toString());
+                                String btn0 = (ln111.getText().toString());
                                 String ito0 = (ln21.getText().toString());
                                 String itn0 = (ln01.getText().toString());
 
@@ -235,7 +235,7 @@ public class LoadExtension extends AppCompatActivity {
                                 ln62.setText(format(Locale.US,"%s",Math.round( Ln620* 100.0 / 100.0)));
                                 ln61.setText(format(Locale.US,"%s",Math.round( Ln610* 100.0 / 100.0)));
 
-                                if(CLn0>7){ln71.setText("100");}  else {ln71.setText("20");}
+                                if(CLn0>7){ln71.setText(R.string.fee1_ds);}  else {ln71.setText(R.string.fee2_ds);}
                                 double Ln710 = Double.parseDouble(ln71.getText().toString());
                                 ln72.setText(format(Locale.US,"%s",Math.round(Ln710 * 100.0/ 100.0)));
 

@@ -1,6 +1,5 @@
-package com.example.bijliestimator;
+package com.surinder.bijliestimator;
 
-import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -108,7 +107,6 @@ public class loadcalculator extends AppCompatActivity {
             }
         });
         incFp.setOnClickListener(new View.OnClickListener() {
-            @SuppressLint("DefaultLocale")
             @Override
             public void onClick(View v) {
                 int n3 = Integer.parseInt(fp.getText().toString())+1;

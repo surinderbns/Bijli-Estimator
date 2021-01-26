@@ -1,7 +1,6 @@
-package com.example.bijliestimator;
+package com.surinder.bijliestimator;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.widget.EditText;
 import android.widget.Button;
