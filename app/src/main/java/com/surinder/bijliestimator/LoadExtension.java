@@ -15,10 +15,10 @@ import android.widget.Toast;
 
 import java.util.Locale;
 
+import static java.lang.Math.ceil;
 import static java.lang.String.format;
 
 public class LoadExtension extends AppCompatActivity {
-    private Spinner  tvsp2;
     private EditText clo, cln;
     private Button est;
     private TextView unit,unit3;
@@ -38,7 +38,7 @@ public class LoadExtension extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_load_extension);
-        tvsp2 = findViewById(R.id.spn_lan);
+        Spinner tvsp2 = findViewById(R.id.spn_lan);
         unit= findViewById(R.id.spn_cl);
         unit3= findViewById(R.id.cd_unit);
         clo = findViewById(R.id.et_cl1);
@@ -62,7 +62,6 @@ public class LoadExtension extends AppCompatActivity {
         ln72 = findViewById(R.id.tv_ln72);
         ln82 = findViewById(R.id.tv_ln82);
         ln91 = findViewById(R.id.tv_ln911);
-        tvsp2 = findViewById(R.id.spn_lan);
         est = findViewById(R.id.btn_nc);
         tvsp2.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
@@ -114,7 +113,7 @@ public class LoadExtension extends AppCompatActivity {
                                 } else { if (CLn > 100) { Rn=420; } else if (CLn > 20) { Rn=470; } else {Rn=700;}}
 
                                 double Ln32;
-                                if (CLn > 20 & CLo<20 ) {Ln32 =(Math.ceil (CLn-CLo/0.9))*Rn; }else { Ln32 = (Math.ceil (CLn-CLo))*Rn;}
+                                if (CLn > 20 & CLo<20 ) {Ln32 =(ceil (CLn-CLo/0.9))*Rn; }else { Ln32 = (ceil (CLn-CLo))*Rn;}
                                 ln32.setText(format(Locale.US,"%s",Math.round(Ln32 * 100.0 / 100.0)));
                                 ln31.setText(format(Locale.US,"%s",Math.round(Rn* 100.0 / 100.0)));
 
@@ -133,23 +132,25 @@ public class LoadExtension extends AppCompatActivity {
                                 double a;double b;
                                 if (itn.equals("LT-CT Meter")) { a=4200;} else if (itn.equals("3-Ph Meter")) { a=1530; } else { a=400;}
                                 if (ito.equals("LT-CT Meter")) { b=4200;} else if (ito.equals("3-Ph Meter")) { b=1530; } else { b=400;}
-                                double c= a-b;double Ln52=c;double Ln51=c;
-                                ln52.setText(format(Locale.US,"%s",Math.round( Ln52* 100.0 / 100.0)));
-                                ln51.setText(format(Locale.US,"%s",Math.round( Ln51* 100.0 / 100.0)));
+                                double c= a-b;
+                                final String format = format(Locale.US, "%s", Math.round(c * 100.0 / 100.0));
+                                ln52.setText(format);
+                                ln51.setText(format);
 
                                 double d;double e;
                                 if (itn.equals("LT-CT Meter")) { d=1780;} else if (itn.equals("3-Ph Meter")){d=350;}else{d=225;}
                                 if (ito.equals("LT-CT Meter")) { e=1780;} else if (ito.equals("3-Ph Meter")){e=350; }else{ e=225;}
-                                double f= d-e;double Ln62=f;double Ln61=f;
-                                ln62.setText(format(Locale.US,"%s",Math.round( Ln62* 100.0 / 100.0)));
-                                ln61.setText(format(Locale.US,"%s",Math.round( Ln61* 100.0 / 100.0)));
+                                double f= d-e;
+                                final String format1 = format(Locale.US, "%s", Math.round(f * 100.0 / 100.0));
+                                ln62.setText(format1);
+                                ln61.setText(format1);
 
                                 if(CLn>7){ln71.setText(R.string.fee1_nrs);}  else {ln71.setText(R.string.fee2_nrs);}
                                 double Ln71 = Double.parseDouble(ln71.getText().toString());
                                 ln72.setText(format(Locale.US,"%s",Math.round(Ln71 * 100.0 / 100.0)));
                                 double Ln82 = 0.18 * Ln71;
                                 ln82.setText(format(Locale.US,"%s",Math.round(Ln82 * 100.0 / 100.0)));
-                                double Ln91 = Ln32 + Ln42 + Ln52 + Ln61 + Ln71 + Ln82;
+                                double Ln91 = Ln32 + Ln42 + c + f + Ln71 + Ln82;
                                 ln91.setText(format(Locale.US,"%s",Math.round(Ln91 * 100.0 / 100.0)));
                                 break;
                             case 0:
@@ -197,7 +198,7 @@ public class LoadExtension extends AppCompatActivity {
                                 if (btn0.equals ("Spot") ){ if (CLn0 > 50) { Rn0=185; } else { Rn0=370; }
                                 } else { if (CLn0 > 100) { Rn0=330; } else if (CLn0 > 20) { Rn0=370; } else {Rn0=500;}}
                                 double Ln320;
-                                if (CLn0 > 50 & CLo0<50 ) {Ln320 =(Math.ceil (CLn0-CLo0/0.9))*Rn0; }else { Ln320 = (Math.ceil (CLn0-CLo0))*Rn0;}
+                                if (CLn0 > 50 & CLo0<50 ) {Ln320 =(ceil (CLn0-CLo0/0.9))*Rn0; }else { Ln320 = (ceil (CLn0-CLo0))*Rn0;}
                                 ln32.setText(format(Locale.US,"%s",Math.round(Ln320 * 100.0 / 100.0)));
                                 ln31.setText(format(Locale.US,"%s",Math.round(Rn0 * 100.0 / 100.0)));
 
@@ -224,16 +225,18 @@ public class LoadExtension extends AppCompatActivity {
                                 double a0;double b0;
                                 if (itn0.equals("LT-CT Meter")) { a0=4200;} else if (itn0.equals("3-Ph Meter")) { a0=1530; } else { a0=400;}
                                 if (ito0.equals("LT-CT Meter")) { b0=4200;} else if (ito0.equals("3-Ph Meter")) { b0=1530; } else { b0=400;}
-                                double c0= a0-b0;double Ln520=c0;double Ln510=c0;
-                                ln52.setText(format(Locale.US,"%s",Math.round( Ln520* 100.0 / 100.0)));
-                                ln51.setText(format(Locale.US,"%s",Math.round( Ln510* 100.0 / 100.0)));
+                                double c0= a0-b0;
+                                final String format2 = format(Locale.US, "%s", Math.round(c0 * 100.0 / 100.0));
+                                ln52.setText(format2);
+                                ln51.setText(format2);
 
                                 double d0;double e0;
                                 if (itn0.equals("LT-CT Meter")) { d0=1780;} else if (itn0.equals("3-Ph Meter")) { d0=350; } else { d0=225;}
                                 if (ito0.equals("LT-CT Meter")) { e0=1780;} else if (ito0.equals("3-Ph Meter")) { e0=350; } else { e0=225;}
-                                double f0= d0-e0;double Ln620=f0;double Ln610=f0;
-                                ln62.setText(format(Locale.US,"%s",Math.round( Ln620* 100.0 / 100.0)));
-                                ln61.setText(format(Locale.US,"%s",Math.round( Ln610* 100.0 / 100.0)));
+                                double f0= d0-e0;
+                                String text = format(Locale.US, "%s", Math.round(f0 * 100.0 / 100.0));
+                                ln62.setText(text);
+                                ln61.setText(text);
 
                                 if(CLn0>7){ln71.setText(R.string.fee1_ds);}  else {ln71.setText(R.string.fee2_ds);}
                                 double Ln710 = Double.parseDouble(ln71.getText().toString());
@@ -242,7 +245,7 @@ public class LoadExtension extends AppCompatActivity {
                                 double Ln820 = 0.18 * Ln710;
                                 ln82.setText(format(Locale.US,"%s",Math.round(Ln820 * 100.0 / 100.0)));
 
-                                double Ln910 = Ln320 + Ln420 + Ln520 + Ln610 + Ln710 + Ln820;
+                                double Ln910 = Ln320 + Ln420 + c0 + f0 + Ln710 + Ln820;
                                 ln91.setText(format(Locale.US,"%s",Math.round(Ln910*100.0/100.0)));
 
                                 break;
