@@ -117,7 +117,7 @@ public class bill_mini extends AppCompatActivity {
                                 double Mc=M3*month;
                                 mr12.setText(format(Locale.US,"%s", ( Math.round(Mr*100/100))));mc12.setText(format(Locale.US,"%s", Math.round(Mc*100/100)));
 
-                                double E3 = E1*E2;double E6 = E4*E5;double E9 = E7*E8;double E12 = E10*E11;double E13 = E3+E6+E9+E12;double E14= (0.29*Uc);double E15=20*(E13+E14+Fixed)/100;
+                                double E3 = E1*E2;double E6 = E4*E5;double E9 = E7*E8;double E12 = E10*E11;double E13 = E3+E6+E9+E12;double E14= (0*Uc);double E15=20*(E13+E14+Fixed)/100;
                                 double E16=Fixed+E13+E14+E15+Mr+Mc;
 
                                 ech1.setText(format(Locale.US,"%s",Math.round(E1*100/100)));ech2.setText(format(Locale.US,"%s",E2));ech3.setText(format(Locale.US,"%s",Math.round(E3*100/100)));
@@ -176,7 +176,7 @@ public class bill_mini extends AppCompatActivity {
 
 
 
-                                double EE3 = EE1*EE2;double EE6 = EE4*EE5;double EE9 = EE7*EE8;double EE12 = EE10*EE11;double EE13 = EE3+EE6+EE9+EE12;double EE14= (0.29*UUc);double EE15=20*(EE13+EE14+Fixed0)/100;
+                                double EE3 = EE1*EE2;double EE6 = EE4*EE5;double EE9 = EE7*EE8;double EE12 = EE10*EE11;double EE13 = EE3+EE6+EE9+EE12;double EE14= (0*UUc);double EE15=20*(EE13+EE14+Fixed0)/100;
                                 double EE16=Fixed0+EE13+EE14+EE15+EMr+EMc;
                                 ech1.setText(format(Locale.US,"%s",Math.round(EE1*100/100)));ech2.setText(format(Locale.US,"%s",EE2));ech3.setText(format(Locale.US,"%s",Math.round(EE3*100/100)));
                                 ech4.setText(format(Locale.US,"%s",Math.round(EE4*100/100)));ech5.setText(format(Locale.US,"%s",EE5));ech6.setText(format(Locale.US,"%s",Math.round(EE6*100/100)));

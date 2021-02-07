@@ -1,8 +1,6 @@
 package com.surinder.bijliestimator;
 
 import android.content.Intent;
-
-
 import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.os.Bundle;
@@ -28,12 +26,11 @@ import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
      Button act1;Button act2;Button act3;Button act4; TextView tv14;
-
-
     Spinner spinner;
     Locale localevar;
-    String currentLanguage1 ="";String currentLang2;
-
+    //language variable
+    String currentLanguage1=" " ;// initially set to punjabi
+    String currentLang2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,7 +45,8 @@ public class MainActivity extends AppCompatActivity {
         act4 = findViewById(R.id.button4);
         tv14 = findViewById(R.id.textView14);
         tv14.setSelected(true);  // Set focus to the textview
-
+        currentLanguage1 = getIntent().getStringExtra(currentLang2);
+        //current language taken from second string
         spinner = findViewById(R.id.spn_lan);
         List<String> list = new ArrayList<>();
         list.add("ਭਾਸ਼ਾ ਚੁਣੋ (Select Language)");
@@ -117,7 +115,6 @@ public class MainActivity extends AppCompatActivity {
 
 
         if (!localeName.equals(currentLanguage1)) {
-
             localevar = new Locale(localeName);
             Resources res = getResources();
             DisplayMetrics dm = res.getDisplayMetrics();
@@ -125,10 +122,11 @@ public class MainActivity extends AppCompatActivity {
             conf.locale = localevar;
             res.updateConfiguration(conf, dm);
             Intent refresh = new Intent(this, MainActivity.class);
-            refresh.putExtra(currentLang2, localeName);startActivity(refresh);
-
-        } else
-            Toast.makeText(MainActivity.this, "Language already selected", Toast.LENGTH_LONG).show();
+            refresh.putExtra(currentLang2, localeName);
+            startActivity(refresh);
+        } else{
+            Toast.makeText(MainActivity.this, "Language already selected", Toast.LENGTH_SHORT).show();
+        }
     }
     public void onBackPressed() {
         Intent intent = new Intent(Intent.ACTION_MAIN);
