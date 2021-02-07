@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
     Spinner spinner;
     Locale localevar;
     //language variable
-    String currentLanguage1=" " ;// initially set to punjabi
+    String currentLanguage1="pa" ;// initially set to punjabi
     String currentLang2;
 
     @Override
