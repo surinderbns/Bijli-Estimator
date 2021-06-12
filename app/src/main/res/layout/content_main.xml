@@ -13,9 +13,8 @@
     <Spinner
         android:id="@+id/spn_lan"
         android:layout_width="269dp"
-        android:layout_height="41dp"
+        android:layout_height="40dp"
         android:layout_marginTop="4dp"
-
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.436"
@@ -162,7 +161,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView14"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="1.0"
+        app:drawableRightCompat="@drawable/india"
+        />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

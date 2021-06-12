@@ -14,7 +14,12 @@
         <item>ਘਰੇਲੂ</item>
         <item> ਐਨ.ਆਰ.ਐਸ.</item>
     </string-array>
-
+    <string-array name="category_array2">
+        <item>ਘਰੇਲੂ</item>
+        <item>ਐਨ.ਆਰ.ਐਸ.</item>
+        <item>ਬੋਰਡਕਰਮੀ</item>
+        <item>ਐਸ.ਸੀ./ਬੀ.ਸੀ.</item>
+    </string-array>
 
     <string name="language_prompt">ਭਾਸ਼ਾ ਚੁਣੋ</string>
     <string-array name="language_array">
@@ -29,7 +34,7 @@
     <string name="wall_sockets">ਵਾਲ ਸਾਕਿਟਾਂ</string>
     <string name="power_sockets">ਪਾਵਰ ਸਾਕਿਟਾਂ</string>
     <string name="air_conditioner">" ਏ.ਸੀ."</string>
-    <string name="load_calculator">ਲੋਡ ਕੈਲਕੁਲੇਟਰ</string>
+    <string name="load_calculator">ਪੀ.ਐਸ.ਪੀ.ਸੀ.ਐਲ.ਲੋਡ ਕੈਲਕੁਲੇਟਰ</string>
     <string name="your_bijli_company_board">ਤੁਹਾਡੀ ਬਿਜਲੀ ਕੰਪਨੀ/ਬੋਰਡ</string>
     <string name="name_plate">ਨੇਮ ਪਲੇਟ ਅਨੁਸਾਰ</string>
     <string name="_3ph_powerSocket">3 ਫੇਜ਼ ਪਾਵਰ ਸਾਕਿਟਾਂ</string>
@@ -48,7 +53,7 @@
     <string name="fan_points1">ਫੈਨ ਪੁਆਇੰਟ</string>
     <string name="bill_calculator">ਬਿਲ ਕੈਲਕੁਲੇਟਰ</string>
     <string name="connected_load">ਜੁੜਿਆ ਹੋਇਆ ਲੋਡ</string>
-    <string name="new_connection_expenses">ਨਵੇਂ ਕਨੈਕਸ਼ਨ ਦੇ ਖਰਚੇ</string>
+    <string name="new_connection_expenses">" ਨਵੇਂ ਕਨੈਕਸ਼ਨ ਦੇ ਖਰਚੇ ਪੀਐਸਪੀਸੀਐਲ"</string>
     <string name="calculate">ਕੈਲਕੁਲੇਟ</string>
     <string name="new_connection_expenses_estimate">ਨਵੇਂ ਕੁਨੈਕਸ਼ਨ ਦੇ ਖਰਚੇ ਦਾ ਅਨੁਮਾਨ</string>
     <string name="instLn">ਪੀਐਸਪੀਸੀਐਲ ਦੁਆਰਾ ਸਥਾਪਨਾ</string>
@@ -69,8 +74,8 @@
     <string name="existing_load">ਮੌਜੂਦਾ ਲੋਡ</string>
     <string name="new_load_applied">ਨਵਾਂ ਲੋੜੀਂਦਾ ਲੋਡ</string>
     <string name="additional_load">ਵਾਧੂ ਲੋਡ</string>
-    <string name="bill_estimator">ਬਿਲ ਅਨੁਮਾਨਕ</string>
-    <string name="total">ਕੁਲ</string>
+    <string name="bill_estimator">ਪੀ.ਐਸ.ਪੀ.ਸੀ.ਐਲ.ਬਿਲ ਅਨੁਮਾਨਕ</string>
+    <string name="total">ਕੁੱਲ</string>
     <string name="b_energy_charges_rs"> ਊਰਜਾ ਦੇ ਖਰਚੇ (ਰੁ)</string>
     <string name="unit_consumed">ਯੂਨਿਟ ਖਪਤ</string>
     <string name="a_fixed_charges_rs"> ਫਿਕਸ ਖਰਚੇ (ਰੁ.)</string>
@@ -91,11 +96,11 @@
     <string name="expenses">ਖਰਚੇ</string>
     <string name="service_conditions">ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ</string>
     <string name="grand_total">ਕੁਲ ਜੋੜ</string>
-    <string name="load_extension_expenses">ਲੋਡ ਵਧਾਉਣ ਦੇ ਖਰਚੇ</string>
+    <string name="load_extension_expenses">" ਲੋਡ ਵਧਾਉਣ ਦੇ ਖਰਚੇ ਪੀਐਸਪੀਸੀਐਲ"</string>
     <string name="meter_rental">ਮੀਟਰ ਰੈਂਟਲ</string>
     <string name="rate_gst">ਰੇਟ+ਜੀ ਐਸ ਟੀ</string>
     <string name="mcb_rental">ਐਮ.ਸੀ.ਬੀ.</string>
-    <string name="total_energy_charges">ਕੁਲ ਊਰਜਾ ਖਰਚੇ</string>
+    <string name="total_energy_charges">ਕੁਲ ਊਰਜਾ ਖਰਚੇ(ਰੁ)</string>
     <string name="c_fca">ਵਾਧੂ ਸਰਚਾਰਜ</string>
     <string name="load_cal">ਲੋਡ ਕੈਲਕੁਲੇਟਰ</string>
     <string name="kwh">ਯੂਨਿਟ</string>
@@ -109,10 +114,19 @@
     <string name="_300_500_units">300ਤੋਂ500 ਯੂਨਿਟ</string>
     <string name="_80_load">80%ਲੋਡ</string>
     <string name="kva">ਕੇ.ਵੀ.ਏ.</string>
-
-    <string name="billing_type_new"> ਨਵੀਂ ਬਿਲਿੰਗ</string>
+    <string name="billing_type_new">ਨਵੀਂ ਬਿਲਿੰਗ</string>
     <string name="billing_type_old">ਪੁਰਾਣੀ ਬਿਲਿੰਗ</string>
     <string name="app_msg">ਬਿਜਲੀ ਦਫ਼ਤਰ ਨਾਲ ਸਲਾਹ-ਮਸ਼ਵਰਾ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਬਿਜਲੀ ਦੀਆਂ ਜ਼ਰੂਰਤਾਂ ਅਤੇ ਖਰਚਿਆਂ ਦਾ ਮੁਲਾਂਕਣ ਕਰਨ ਵਿਚ ਤੁਹਾਡੀ ਮਦਦ ਕਰਨ ਲਈ ਬਿਜਲੀ-ਐਸਟੀਮੇਟਰ</string>
+    <string name="link_pspcl_bill"><a href= "https://billpayment.pspcl.in/pgBillPay.aspx" >ਹੁਣ ਆਪਣਾ ਬਿੱਲ ਚੈੱਕ ਕਰੋ ਅਤੇ ਭੁਗਤਾਨ ਕਰੋ</a>
+        </string>
+    <string name="Sc_Bc">200</string>
+    <string name="AE">155</string>
+    <string name="conc">ਮਾਸਿਕ ਰਿਆਇਤ</string>
+    <string name="_kva">ਕੇ.ਵੀ.ਏ.</string>
+    <string name="_kvah">ਕੇ.ਵੀ.ਏ.ਐਚ.</string>
+    <string name="kw_or_kva">ਕਿ.ਵਾ.ਜਾਂ ਕੇ.ਵੀ.ਏ.</string>
+    <string name="_kw">ਕਿ.ਵਾ.</string>
+    <string name="_kwh">ਕਿ.ਵਾ.ਹਾ.</string>
 
 
 </resources>
